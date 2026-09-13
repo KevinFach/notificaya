@@ -75,7 +75,6 @@ class NotificationRuleForm
                         TagsInput::make('service_ids')
                             ->label('Solo para estos servicios')
                             ->helperText('Ids de servicio de ReservaYa. Vacío = todos los servicios.')
-                            ->numeric()
                             ->columnSpanFull(),
                     ])
                     ->columnSpanFull(),
